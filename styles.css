@@ -767,7 +767,7 @@
 }
 
 .audience {
-  padding: 50px 15px;
+  padding: 51px 15px;
   background-color: #00a1c612;
 }
 @media screen and (min-width: 1400px) {
@@ -777,6 +777,9 @@
     width: 100%;
     padding: 0;
   }
+}
+.audience__head {
+  margin-top: 15px;
 }
 @media screen and (min-width: 1400px) {
   .audience__head {

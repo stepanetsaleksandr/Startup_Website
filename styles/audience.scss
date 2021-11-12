@@ -1,5 +1,5 @@
 .audience {
-  padding: 50px 15px;
+  padding: 51px 15px;
   background-color: $color-light-blue;
 
   @include for-large-up {
@@ -10,6 +10,7 @@
   }
 
   &__head {
+    margin-top: 15px;
     @include for-large-up {
       max-width: 555px;
       margin: 108px auto 0 auto;
