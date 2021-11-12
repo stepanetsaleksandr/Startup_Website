@@ -1,0 +1,37 @@
+.about {
+  padding: 46px 15px;
+  width: 100%;
+  background-color: #f4f5f7;
+
+  @include for-large-up {
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px 130px;
+  }
+}
+
+.article {
+  @include for-large-up {
+    width: 555px;
+  }
+
+  &__:last-child {
+    margin-top: 20px;
+
+    @include for-large-up {
+      margin-top: 0;
+    }
+  }
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  &__text {
+    margin: 0;
+    margin-top: 6px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}

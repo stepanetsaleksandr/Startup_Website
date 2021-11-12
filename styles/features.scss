@@ -1,0 +1,86 @@
+.features {
+  display: flex;
+  position: relative;
+
+  @include for-large-down {
+    display: none;
+  }
+
+  &__content {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+  }
+  &__column {
+    width: 459px;
+  }
+  &__subtitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #009b4d;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+  &__description {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  &__advantage-header {
+    line-height: 42px;
+    display: flex;
+    margin-top: 42px;
+  }
+  &__advantage-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3142c6;
+    margin: 0;
+    margin-left: 15px;
+  }
+  &__advantage-description {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #3142c6;
+  }
+  &__advantage-item {
+    border-bottom: 1px solid #2b292d26;
+    margin-top: 21px;
+    padding-bottom: 22px;
+    display: flex;
+  }
+  &__advantage-item-text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 15px;
+  }
+  &__left-decoration {
+    position: absolute;
+    top: 258px;
+    height: 166px;
+  }
+  &__bunner {
+    position: relative;
+    right: -125px;
+  }
+}
+
+// @media screen and (max-width: 399px) {
+//   .features {
+//     display: none;
+//   }
+// }
