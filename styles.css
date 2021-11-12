@@ -858,6 +858,7 @@
 @media screen and (min-width: 1400px) {
   .audience__list {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 110px auto 110px auto;
   }

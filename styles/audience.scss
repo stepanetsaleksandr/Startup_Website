@@ -87,6 +87,7 @@
 
     @include for-large-up {
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
       margin: 110px auto 110px auto;
     }
