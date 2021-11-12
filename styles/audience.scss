@@ -69,7 +69,8 @@
     &:last-child {
       margin-top: 12px;
       background-color: #fff;
-      color: #0000;
+      color: #3040c4;
+
       @include for-large-up {
         margin-top: 0;
         margin-left: 10px;
@@ -103,7 +104,8 @@
 
 .user-card {
   margin: 0;
-
+  width: 262px;
+  height: 300px;
   padding: 22px 0 33px 0;
 
   display: flex;

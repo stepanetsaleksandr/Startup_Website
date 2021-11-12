@@ -69,6 +69,7 @@
     }
 
     @include for-large-up {
+      width: 160px;
       margin-top: 0;
       margin-left: 10px;
       flex-shrink: 0;

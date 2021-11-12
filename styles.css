@@ -399,6 +399,14 @@
 }
 .header__button {
   display: none;
+  background-color: #3040c4;
+  color: #fff;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
 }
 @media screen and (min-width: 1400px) {
   .header__button {
@@ -574,7 +582,7 @@
 .headline__learn-more-button {
   background-color: #fff;
   color: #3040c4;
-  width: 158px;
+  width: 100%;
   height: 48px;
   font-size: 18px;
   font-weight: 700;
@@ -584,6 +592,7 @@
 }
 @media screen and (min-width: 1400px) {
   .headline__learn-more-button {
+    width: 158px;
     margin-left: 10px;
     margin-top: 0;
   }
@@ -602,8 +611,19 @@
     margin-left: auto;
   }
 }
+.headline__action-btn {
+  background-color: #3040c4;
+  color: #fff;
+  width: 100%;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+}
 @media screen and (min-width: 1400px) {
   .headline__action-btn {
+    width: 160px;
     margin-left: 10px;
     margin-top: 0;
   }
@@ -730,6 +750,7 @@
 }
 @media screen and (min-width: 1400px) {
   .order__button {
+    width: 160px;
     margin-top: 0;
     margin-left: 10px;
     flex-shrink: 0;
@@ -912,4 +933,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
