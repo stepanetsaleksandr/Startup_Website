@@ -11,11 +11,18 @@
 
   &__details {
     max-width: 555px;
+    margin: auto;
   }
 
-  &__illustration {
-    max-width: 200px;
-    margin-right: 121px;
+  &__ilustration {
+    min-width: 200px;
+    margin: auto;
+    display: block;
+
+    @include for-large-up {
+      max-width: 269px;
+      margin-right: 121px;
+    }
   }
   &__title {
     font-weight: 700;
@@ -33,26 +40,24 @@
   }
 
   &__form {
-    @include for-large-up {
-      display: flex;
-      margin-top: 26px;
-    }
+    display: flex;
+    margin-top: 26px;
+    // @include for-large-up {
+    //   display: flex;
+    //   margin-top: 26px;
+    // }
   }
 
   &__email {
     margin-top: 40px;
-    background: #ffffff;
-    border: 1px solid $border-color;
-    box-sizing: border-box;
-    border-radius: 2px;
     height: 48px;
     width: 100%;
+    background: #ffffff;
+    border: 1px solid #2b292d33;
+    border-radius: 2px;
     text-align: center;
-    font-size: 18px;
-    line-height: 13px;
 
     @include for-large-up {
-      width: auto;
       margin-top: 0;
     }
 
@@ -62,20 +67,29 @@
   }
 
   &__button {
-    margin-top: 12px;
+    flex-shrink: 0;
+    width: 160px;
+    height: 48px;
+    color: #ffffff;
+    background-color: #3040c4;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
 
-    @include for-large-down {
-      width: 100%;
-    }
+    // @include for-large-down {
+    //   margin-top: 0;
+    //   margin-left: 10px;
+    // }
 
     @include for-large-up {
-      width: 160px;
       margin-top: 0;
       margin-left: 10px;
-      flex-shrink: 0;
     }
   }
   &__terms {
+    margin-top: 10px;
     font-size: 14px;
     line-height: 22px;
     color: $text-color-light-grey;
