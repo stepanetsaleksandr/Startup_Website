@@ -10,7 +10,7 @@
   }
 
   &__head {
-    margin-top: 15px;
+    margin-bottom: -15px;
     @include for-large-up {
       max-width: 555px;
       margin: 108px auto 0 auto;
