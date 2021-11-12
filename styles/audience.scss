@@ -9,7 +9,7 @@
     padding: 0;
   }
 
-  &__details {
+  &__head {
     @include for-large-up {
       max-width: 555px;
       margin: 108px auto 0 auto;
@@ -79,16 +79,18 @@
   }
 
   &__list {
+    display: flex;
+    flex-direction: column;
     margin-top: 40px;
     max-width: 1140px;
 
     @include for-large-up {
       display: flex;
       justify-content: space-between;
-      margin: 111px auto 110px auto;
+      margin: 110px auto 110px auto;
     }
   }
-  &__card.user-card {
+  &__card .user-card {
     margin-top: 15px;
 
     &:first-child {
@@ -103,8 +105,8 @@
 }
 
 .user-card {
-  margin: 0;
-  width: 262px;
+  margin-top: 15px;
+  width: 100%;
   height: 300px;
   padding: 22px 0 33px 0;
 
