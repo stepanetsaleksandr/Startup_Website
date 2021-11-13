@@ -223,6 +223,13 @@
     display: none;
   }
 }
+.footer .logo__description {
+  display: block;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #2b292d99;
+}
 
 .about-company {
   margin-top: 44px;
@@ -378,6 +385,14 @@
 .logo-vertical_image {
   width: 60px;
   height: 60px;
+}
+
+.logo__description {
+  display: block;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #2b292d99;
 }
 
 .header {
