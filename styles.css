@@ -275,7 +275,7 @@
 @media screen and (min-width: 1399px) {
   .additional-navigation {
     margin-top: 60px;
-    margin-left: auto;
+    margin-left: 126px;
     flex-direction: row;
   }
 }
