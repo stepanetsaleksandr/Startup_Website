@@ -230,6 +230,12 @@
   text-align: center;
   color: rgba(43, 41, 45, 0.6);
 }
+@media screen and (min-width: 1399px) {
+  .footer {
+    max-width: 1400px;
+    padding-left: 130px;
+  }
+}
 
 .about-company {
   margin-top: 44px;
@@ -244,7 +250,7 @@
   .footer-navigation {
     display: flex;
     flex-direction: row;
-    width: 1140px;
+    width: 1400px;
     margin: 0 auto;
     height: 338px;
   }
@@ -317,7 +323,7 @@
 @media screen and (min-width: 1399px) {
   .footer-links {
     flex-direction: row;
-    width: 1140px;
+    width: 100%;
     height: 50px;
     margin: 0 auto;
     align-items: center;
@@ -331,6 +337,7 @@
 }
 @media screen and (min-width: 1399px) {
   .terms {
+    width: 180px;
     line-height: 50px;
     margin-top: 0;
   }

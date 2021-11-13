@@ -1,5 +1,6 @@
 .footer {
   margin: auto;
+
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
@@ -41,6 +42,10 @@
       color: rgba(43, 41, 45, 0.6);
     }
   }
+  @include for-large-up {
+    max-width: 1400px;
+    padding-left: 130px;
+  }
 }
 .about-company {
   margin-top: 44px;
@@ -54,7 +59,7 @@
   @include for-large-up {
     display: flex;
     flex-direction: row;
-    width: 1140px;
+    width: 1400px;
     margin: 0 auto;
     height: 338px;
   }
@@ -126,7 +131,7 @@
 
   @include for-large-up {
     flex-direction: row;
-    width: 1140px;
+    width: 100%;
     height: 50px;
     margin: 0 auto;
     align-items: center;
@@ -139,6 +144,7 @@
   margin-top: 30px;
 
   @include for-large-up {
+    width: 180px;
     line-height: 50px;
     margin-top: 0;
   }
