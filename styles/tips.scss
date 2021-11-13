@@ -7,7 +7,7 @@
 }
 .tip {
   padding: 40px 15px 0 15px;
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid $color-light-grey;
 
   &__subtitle {
     font-weight: 700;
@@ -30,6 +30,7 @@
     margin: 0;
     margin-top: 13px;
   }
+
   &__decoration {
     display: flex;
     flex-direction: column;
@@ -37,9 +38,11 @@
     margin: 0;
     margin-bottom: 40px;
   }
+
   &__image {
     margin-top: 29px;
   }
+
   &__image-caption {
     font-size: 14px;
     line-height: 22px;

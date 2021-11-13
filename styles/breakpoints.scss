@@ -1,4 +1,4 @@
-$lg: 1399px;
+$lg: 1400px;
 
 @mixin for-large-up {
   @media screen and (min-width: $lg) {
@@ -11,9 +11,3 @@ $lg: 1399px;
     @content;
   }
 }
-
-// @media screen and (max-width: 399px) {
-//     .hide_mobile {
-//       display: none;
-//     }
-//   }

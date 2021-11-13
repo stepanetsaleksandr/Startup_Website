@@ -1,7 +1,7 @@
 .header {
   height: 64px;
   width: 100%;
-  background-color: #fff;
+  background-color: $color-white;
   display: flex;
   align-items: center;
   padding-left: 15px;
@@ -16,7 +16,7 @@
 
   &__button {
     display: none;
-    background-color: #3040c4;
+    background-color: $color-dark-blue;
     color: #fff;
     width: 160px;
     height: 48px;
@@ -61,7 +61,7 @@
   }
 
   &__item {
-    color: #2b292d;
+    color: $color-dark;
     text-decoration: none;
     line-height: 25px;
     font-size: 18px;

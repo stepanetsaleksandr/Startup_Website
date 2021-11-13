@@ -16,6 +16,7 @@
       margin: 108px auto 0 auto;
     }
   }
+
   &__title {
     margin: 0;
     font-weight: 700;
@@ -53,6 +54,7 @@
       margin-top: 30px;
     }
   }
+
   &__actions {
     margin-top: 30px;
 
@@ -69,8 +71,8 @@
 
     &:last-child {
       margin-top: 12px;
-      background-color: #fff;
-      color: #3040c4;
+      background-color: $color-white;
+      color: $text-color-blue;
 
       @include for-large-up {
         margin-top: 0;
@@ -92,6 +94,7 @@
       margin: 110px auto 110px auto;
     }
   }
+
   &__card .user-card {
     margin-top: 15px;
 
@@ -123,7 +126,7 @@
       rgba(255, 255, 255, 0.05) 0%,
       rgba(255, 255, 255, 1e-5) 100%
     ),
-    #ffffff;
+    $color-white;
   background-blend-mode: overlay, normal;
   cursor: pointer;
 
@@ -132,7 +135,7 @@
   }
 
   &:hover {
-    background-color: $text-color-blue;
+    background-color: $color-dark-blue;
     figcaption {
       color: $text-color-white;
     }

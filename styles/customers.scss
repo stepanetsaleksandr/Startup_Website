@@ -25,7 +25,7 @@
   &__item {
     height: 94px;
     width: 107px;
-    border-bottom: 1px solid #e3e3e3;
+    border-bottom: 1px solid $color-light-grey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +33,7 @@
     @include for-large-up {
       border: none;
     }
+
     &__:last-child {
       border-right: none;
     }

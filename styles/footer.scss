@@ -20,7 +20,7 @@
 
   &__line {
     width: 100%;
-    border-top: 1px solid #2b292d;
+    border-top: 1px solid $color-dark;
     opacity: 0.1;
     margin: 0;
     margin-top: 40px;
@@ -47,6 +47,7 @@
     padding-left: 130px;
   }
 }
+
 .about-company {
   margin-top: 44px;
 }
@@ -75,6 +76,7 @@
     margin-top: 25px;
     justify-content: left;
   }
+
   &__item {
     margin-right: 10px;
   }
@@ -151,7 +153,7 @@
 
   &__items {
     text-decoration: none;
-    color: #2b292d;
+    color: $color-dark;
     opacity: 0.6;
     margin-right: 22px;
   }
@@ -203,6 +205,7 @@
     height: 60px;
   }
 }
+
 .logo {
   &__description {
     display: block;
