@@ -25,12 +25,12 @@
     }
   }
   &__title {
+    margin-top: 40px;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
     letter-spacing: -0.25px;
-    margin-top: 40px;
   }
   &__text {
     margin: 0;
@@ -68,7 +68,8 @@
 
   &__button {
     flex-shrink: 0;
-    width: 160px;
+    margin-top: 12px;
+    width: 100%;
     height: 48px;
     color: #ffffff;
     background-color: #3040c4;
@@ -85,6 +86,7 @@
 
     @include for-large-up {
       margin-top: 0;
+      width: 288px;
       margin-left: 10px;
     }
   }
