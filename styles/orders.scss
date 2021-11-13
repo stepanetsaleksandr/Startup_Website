@@ -5,12 +5,13 @@
   @include for-large-up {
     padding: 73px 0 72px 224px;
     display: flex;
+    height: 441px;
     justify-content: center;
     align-items: flex-start;
   }
 
   &__details {
-    max-width: 555px;
+    max-width: 557px;
     margin: auto;
 
     &__action {

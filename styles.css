@@ -689,12 +689,13 @@
   .order {
     padding: 73px 0 72px 224px;
     display: flex;
+    height: 441px;
     justify-content: center;
     align-items: flex-start;
   }
 }
 .order__details {
-  max-width: 555px;
+  max-width: 557px;
   margin: auto;
 }
 @media screen and (min-width: 1399px) {
