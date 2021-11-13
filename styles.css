@@ -695,8 +695,8 @@
   }
 }
 .order__details {
-  max-width: 557px;
-  margin: auto 120px;
+  max-width: 660px;
+  margin: auto;
 }
 @media screen and (min-width: 1399px) {
   .order__details__action {
