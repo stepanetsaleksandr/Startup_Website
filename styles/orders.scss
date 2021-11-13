@@ -12,6 +12,12 @@
   &__details {
     max-width: 555px;
     margin: auto;
+
+    &__action {
+      @include for-large-up {
+        display: flex;
+      }
+    }
   }
 
   &__ilustration {
@@ -29,7 +35,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
-    text-align: center;
+
     letter-spacing: -0.25px;
   }
   &__text {

@@ -697,6 +697,11 @@
   max-width: 555px;
   margin: auto;
 }
+@media screen and (min-width: 1399px) {
+  .order__details__action {
+    display: flex;
+  }
+}
 .order__ilustration {
   min-width: 200px;
   margin: auto;
@@ -713,7 +718,6 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  text-align: center;
   letter-spacing: -0.25px;
 }
 .order__text {
