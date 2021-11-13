@@ -3,7 +3,7 @@
   background-color: $color-light;
 
   @include for-large-up {
-    padding: 73px 0 72px 0;
+    padding: 73px 0 72px 224px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -22,7 +22,7 @@
 
   &__ilustration {
     min-width: 200px;
-    margin: auto;
+    margin: 0;
     display: block;
 
     @include for-large-up {
